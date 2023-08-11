@@ -1,6 +1,6 @@
 a {
-    color: #fff;
-    text-decoration: none;
+    color: #000;
+
 }
 * {
     margin: 0;
@@ -73,4 +73,8 @@ footer {
 .description {
     color: #FFFFFF;
     padding: 10px 50px;
+}
+
+.btn a{
+    color: #000000;
 }

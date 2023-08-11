@@ -18,7 +18,8 @@
             <div class="header__item headerButton"><a href="#">Вход</a></div>
         </div>
     </div>
-
+    {% block content %}
+    {% endblock %}
     <main>
         <div class="sidebar">
             <div class="sidebar__section">
@@ -33,7 +34,5 @@
     <p class="description">Контакты: info@example.com</p>
     <p class="description">Дополнительная информация</p>
   </footer>
-    {% block content %}
-    {% endblock %}
 </body>
 </html>
